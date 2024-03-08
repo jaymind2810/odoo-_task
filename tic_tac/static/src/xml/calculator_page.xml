@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template id="template" xml:space="preserve">
+
+<t t-name="tic_tac_web">
+    <div id="my_calculator_d" class="container">
+    <div id="calculator">
+        <h1>Calculator</h1>
+        <div id="display-container">
+            <p id="display"> </p>
+        </div>
+        <div id="buttons-container">
+            <div class="button" id="button-clear" data-value="ac" t-on-click="this._onButtonPress">
+                <span>AC</span>
+            </div>
+            <div class="button" id="button-sign" data-value="sign" t-on-click="this._onButtonPress">
+                <span>+/-</span>
+            </div>
+            <div class="button" id="button-percent" data-value="%" t-on-click="this._onButtonPress">
+                <span> % </span>
+            </div>
+            <div class="button red" data-value="/" id="button-divide" t-on-click="this._onButtonPress">
+                <span> / </span>
+            </div>
+            <div class="button" id="button-seven" data-value="7" t-on-click="this._onButtonPress">
+                <span>7</span>
+            </div>
+            <div class="button" id="button-eight" data-value="8" t-on-click="this._onButtonPress">
+                <span>8</span>
+            </div>
+            <div class="button" id="button-nine" data-value="9" t-on-click="this._onButtonPress">
+                <span>9</span>
+            </div>
+            <div class="button red" id="button-multiply" data-value="*" t-on-click="this._onButtonPress">
+                <span>*</span>
+            </div>
+            <div class="button" id="button-four" data-value="4" t-on-click="this._onButtonPress">
+                <span>4</span>
+            </div>
+            <div class="button" id="button-five" data-value="5" t-on-click="this._onButtonPress">
+                <span>5</span>
+            </div>
+            <div class="button" id="button-six" data-value="6" t-on-click="this._onButtonPress">
+                <span>6</span>
+            </div>
+            <div class="button red" id="button-minus" data-value="-" t-on-click="this._onButtonPress">
+                <span>-</span>
+            </div>
+            <div class="button" id="button-one" data-value="1" t-on-click="this._onButtonPress">
+                <span> 1 </span>
+            </div>
+            <div class="button" id="button-two" data-value="2" t-on-click="this._onButtonPress">
+                <span> 2 </span>
+            </div>
+            <div class="button" id="button-three" data-value="3" t-on-click="this._onButtonPress">
+                <span> 3 </span>
+            </div>
+            <div class="button red" id="button-plus" data-value="+" t-on-click="this._onButtonPress">
+                <span> + </span>
+            </div>
+            <div class="button" id="button-zero" data-value="0" t-on-click="this._onButtonPress">
+                <span> 0 </span>
+            </div>
+            <div class="button" id="button-decimal" data-value="." t-on-click="this._onButtonPress">
+                <span> . </span>
+            </div>
+            <div class="button red" id="button-equals" data-value="=" t-on-click="this._onEqualButtonPress">
+                <span> = </span>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+<!--    <div id="my_calculator_d" class="container text-center">-->
+<!--        <div class="calculator">-->
+<!--            <div class="input" id="input"></div>-->
+<!--            <div class="buttons">-->
+<!--                <div class="operators">-->
+<!--                    <div id="plus">+</div>-->
+<!--                    <div id="minus">-</div>-->
+<!--                    <div id="multipy">*</div>-->
+<!--                    <div id="divide">/</div>-->
+<!--                </div>-->
+<!--                <div class="leftPanel">-->
+<!--                    <div class="numbers">-->
+<!--                        <div value="7">7</div>-->
+<!--                        <div value="8">8</div>-->
+<!--                        <div value="9">9</div>-->
+<!--                    </div>-->
+<!--                    <div class="numbers">-->
+<!--                        <div value="4">4</div>-->
+<!--                        <div value="5">5</div>-->
+<!--                        <div value="6">6</div>-->
+<!--                    </div>-->
+<!--                    <div class="numbers">-->
+<!--                        <div>1</div>-->
+<!--                        <div>2</div>-->
+<!--                        <div>3</div>-->
+<!--                    </div>-->
+<!--                    <div class="numbers">-->
+<!--                        <div>0</div>-->
+<!--                        <div>.</div>-->
+<!--                        <div id="clear">C</div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            <div class="equal" id="result">=</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+  </t>
+</template>

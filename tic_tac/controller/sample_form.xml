@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="sample_new_form_template">
+        <t t-call="website.layout">
+            <div class="container">
+            <div class="new_form_page">
+                <br/>
+                <div class="oe_structure"/>
+                <div class="text-center">
+                    <h1> Form Details</h1>
+<!--                    <button string="Get Data" type="object" name="get_new_form_data" class="btn btn-primary" id="get_form_data"> Get Data </button>-->
+                </div>
+                <div id="form_data_here">
+
+                </div>
+            </div>
+            </div>
+        </t>
+    </template>
+</odoo>

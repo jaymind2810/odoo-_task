@@ -1,0 +1,856 @@
+# Translation of odoo Server.
+# This file contains the translation of the following modules:
+# 	* building_menagement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: odoo Server 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-25 10:13+0000\n"
+"PO-Revision-Date: 2021-08-25 10:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: building_menagement
+#: model:mail.template,body_html:building_menagement.rent_email_template
+msgid ""
+"\n"
+"                \n"
+"                Invoice no : <b>${(object.new_id)}</b>\n"
+"                <p>hello,<b>${(object.agreement_party)}</b><br/><br/>\n"
+"                Rentagreement for office.Total expence of rent agreement : <b>${(object.agreement_price)}</b><br/></p>\n"
+"                rent agreement duration :<b>${format_date(object.agreement_start_date)}</b> to <b>${format_date(object.agreement_end_date)}</b>\n"
+"                <br/><br/> Regards,<br/>\n"
+"                ${(object.rental_id.name)} \n"
+"            "
+msgstr " ઇન્વoiceઇસ નં "
+
+#. module: building_menagement
+#: model:mail.template,subject:building_menagement.rent_email_template
+msgid "${object.new_id}"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__building_category__building_selection__2
+msgid "2star"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__building_category__building_selection__3
+msgid "3star"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__building_category__building_selection__4
+msgid "4star"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__building_category__building_selection__5
+msgid "5star"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.report_property_offers
+msgid "<strong>Expected Price: </strong>"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_needaction
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__active
+msgid "Active"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.report_info_card
+msgid "Agreement Date"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.report_info_card
+msgid "Agreement Report By Date"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_attachment_count
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__building_id
+msgid "Building"
+msgstr ""
+
+#. module: building_menagement
+#: model:res.groups,name:building_menagement.building_admin
+msgid "Building Admin"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__building_code
+msgid "Building Code"
+msgstr ""
+
+#. module: building_menagement
+#: model:res.groups,name:building_menagement.building_manager
+msgid "Building Manager"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.report_building_info
+msgid "Building Report"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__building_selection
+msgid "Building Selection"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_form_view
+msgid "Cancel"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_form_view
+msgid "Confirm"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model,name:building_menagement.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__cost_factor
+msgid "Cost Factor"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__cost_price
+msgid "Cost Price"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__create_uid
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__create_uid
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__create_uid
+#: model:ir.model.fields,field_description:building_menagement.field_floor__create_uid
+#: model:ir.model.fields,field_description:building_menagement.field_office__create_uid
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__create_uid
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__create_date
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__create_date
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__create_date
+#: model:ir.model.fields,field_description:building_menagement.field_floor__create_date
+#: model:ir.model.fields,field_description:building_menagement.field_office__create_date
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__create_date
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__customer_id
+msgid "Customer"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__date_today
+msgid "Date today"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__display_name
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__display_name
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__display_name
+#: model:ir.model.fields,field_description:building_menagement.field_floor__display_name
+#: model:ir.model.fields,field_description:building_menagement.field_office__display_name
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__display_name
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__display_name
+#: model:ir.model.fields,field_description:building_menagement.field_res_partner__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_form_view
+msgid "Done"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_form_view
+msgid "Draft"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__agreement_end_date
+msgid "End_date"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__final_sale_date
+msgid "Final Sale Date"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__finals_sale_date
+msgid "Finals Sale Date"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__floor_id
+msgid "Floor"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_floor__floor_code
+msgid "Floor Code"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__floor_line
+msgid "Floor Line"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_follower_ids
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_channel_ids
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_partner_ids
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.floor_search_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_search_view
+msgid "Group by"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__id
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__id
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__id
+#: model:ir.model.fields,field_description:building_menagement.field_floor__id
+#: model:ir.model.fields,field_description:building_menagement.field_office__id
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__id
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__id
+#: model:ir.model.fields,field_description:building_menagement.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,help:building_menagement.field_building__message_needaction
+#: model:ir.model.fields,help:building_menagement.field_building__message_unread
+#: model:ir.model.fields,help:building_menagement.field_rent_agreement__message_needaction
+#: model:ir.model.fields,help:building_menagement.field_rent_agreement__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,help:building_menagement.field_building__message_has_error
+#: model:ir.model.fields,help:building_menagement.field_rent_agreement__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_is_follower
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building____last_update
+#: model:ir.model.fields,field_description:building_menagement.field_building_category____last_update
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard____last_update
+#: model:ir.model.fields,field_description:building_menagement.field_floor____last_update
+#: model:ir.model.fields,field_description:building_menagement.field_office____last_update
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement____last_update
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard____last_update
+#: model:ir.model.fields,field_description:building_menagement.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__write_uid
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__write_uid
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__write_uid
+#: model:ir.model.fields,field_description:building_menagement.field_floor__write_uid
+#: model:ir.model.fields,field_description:building_menagement.field_office__write_uid
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__write_uid
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__write_date
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__write_date
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__write_date
+#: model:ir.model.fields,field_description:building_menagement.field_floor__write_date
+#: model:ir.model.fields,field_description:building_menagement.field_office__write_date
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__write_date
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__level
+msgid "Level"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_main_attachment_id
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_has_error
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_ids
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__name
+msgid "Name"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_needaction_counter
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_has_error_counter
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,help:building_menagement.field_building__message_needaction_counter
+#: model:ir.model.fields,help:building_menagement.field_rent_agreement__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,help:building_menagement.field_building__message_has_error_counter
+#: model:ir.model.fields,help:building_menagement.field_rent_agreement__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,help:building_menagement.field_building__message_unread_counter
+#: model:ir.model.fields,help:building_menagement.field_rent_agreement__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__office_id
+msgid "Office"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_floor__office_line
+msgid "Office Line"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.report_property_offers
+msgid "Price"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_res_partner__rent_count
+#: model:ir.model.fields,field_description:building_menagement.field_res_users__rent_count
+msgid "Rent Count"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.actions.act_window,name:building_menagement.rent_wizard_action
+#: model:ir.actions.act_window,name:building_menagement.rent_wizard_action_id
+msgid "Rentagreement Sold"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__rental_id
+msgid "Rental"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_office__rental_line
+msgid "Rental Line"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_form_view
+msgid "Save file"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_form_view
+msgid "Send e-mail"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__Sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__new_id
+msgid "Service Number"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__state
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__state
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__state
+msgid "State"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_unread
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__message_unread_counter
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__user_id
+msgid "User"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.module.category,description:building_menagement.building_menagement
+msgid "User access level for Building module"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__term_condition
+msgid "add condition"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__adress
+msgid "adress"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__agreement_price
+msgid "aggrement price"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__agreement_number
+msgid "agreement number"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__agreement_party
+msgid "agreement_party"
+msgstr ""
+
+#. module: building_menagement
+#: model:res.groups,name:building_menagement.building_order_12
+msgid "anand"
+msgstr "આનંદ"
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__area_rate
+msgid "area rate"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.ui.menu,name:building_menagement.menu_action_building_root
+msgid "bms"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model,name:building_menagement.model_building
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__building_ids
+#: model:ir.module.category,name:building_menagement.building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_form_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_list_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.floor_graph_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.floor_search_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_form_view
+msgid "building"
+msgstr ""
+
+#. module: building_menagement
+#: model:res.groups,name:building_menagement.building_executive
+msgid "building executive"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_floor__building_id
+msgid "building id"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.actions.report,name:building_menagement.report_info
+msgid "building info"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.floor_search_view
+msgid "building name"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_res_partner__building_pref
+#: model:ir.model.fields,field_description:building_menagement.field_res_users__building_pref
+msgid "building preferance"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_search_view
+msgid "building rate"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__building_review
+msgid "building review"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model,name:building_menagement.model_building_category
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_category_form_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_category_list_view
+msgid "building_category"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__building_name
+msgid "building_name"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__building_star
+msgid "building_star"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model,name:building_menagement.model_building_wizard
+msgid "building_wizard"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__building_cat_many_id
+msgid "buildingto build_cat"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__building__state__cancel
+#: model:ir.model.fields.selection,name:building_menagement.selection__rent_agreement__state__cancel
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_form_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_wizard
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_wizard_ids
+msgid "cancel"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__building__state__confirm
+#: model:ir.model.fields.selection,name:building_menagement.selection__rent_agreement__state__confirm
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_form_view
+msgid "confirm"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_wizard
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_wizard_ids
+msgid "create"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__building__state__done
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_form_view
+msgid "done"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__building__state__draft
+#: model:ir.model.fields.selection,name:building_menagement.selection__rent_agreement__state__draft
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_form_view
+msgid "draft"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__end_date
+msgid "end date"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__rent_agreement__state__expired
+msgid "expired"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__final_cost
+msgid "final cost"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__finals_cost
+msgid "finals cost"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model,name:building_menagement.model_floor
+#: model_terms:ir.ui.view,arch_db:building_menagement.floor_form_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.floor_list_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.floor_pivot_view
+msgid "floor"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_floor__full_number
+msgid "floor number"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__floor_number
+msgid "floor_number"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_office__floor_office_id
+msgid "floor_office_id"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__image
+msgid "image"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building_category__building_many_id
+msgid "many to building"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.actions.act_window,name:building_menagement.action_building_form
+#: model:ir.ui.menu,name:building_menagement.menu_action_building_form
+msgid "my building"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.actions.act_window,name:building_menagement.action_building_category_form
+#: model:ir.ui.menu,name:building_menagement.menu_action_building_category_form
+msgid "my building_category"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.actions.act_window,name:building_menagement.action_floor_form
+#: model:ir.ui.menu,name:building_menagement.menu_action_floor_form
+msgid "my floor"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.actions.act_window,name:building_menagement.action_office_form
+#: model:ir.ui.menu,name:building_menagement.menu_action_office_form
+msgid "my office"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.actions.act_window,name:building_menagement.action_rent_agreement_form
+#: model:ir.ui.menu,name:building_menagement.menu_action_rent_agreement_form
+msgid "my rent_agreement"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_wizard_ids
+msgid "next1"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_wizard_ids
+msgid "next2"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model,name:building_menagement.model_office
+#: model_terms:ir.ui.view,arch_db:building_menagement.office_form_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.office_list_view
+msgid "office"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_office__text_name
+msgid "office Name"
+msgstr "ઓફિસનું નામ"
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__office_area
+msgid "office area"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_office__office_number
+msgid "office number"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__office_rate
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_search_view
+msgid "office rate"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_office__office_building_id
+msgid "office_building_id"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__office_name
+msgid "office_name"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__other_expenses
+msgid "other expences"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__pin
+msgid "pin"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__rate_sqft
+msgid "rate_sqft"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_res_partner__rent_name
+#: model:ir.model.fields,field_description:building_menagement.field_res_users__rent_name
+msgid "rent name"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_wizard_ids
+msgid "rent wizard"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model,name:building_menagement.model_rent_agreement
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_list_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_pivot_view
+#: model_terms:ir.ui.view,arch_db:building_menagement.rent_agreement_search_view
+msgid "rent_agreement"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model,name:building_menagement.model_rent_wizard
+msgid "rent_wizard"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.res_form_form_view
+msgid "rentagreement"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_office__revenue
+msgid "revenue per year"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__sold
+#: model:ir.model.fields,field_description:building_menagement.field_rent_wizard__rents_sold
+msgid "sold"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__sqft
+msgid "sqft"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_form_view
+msgid "sqfts"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__rent_wizard__state__stage1
+msgid "stage1"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__rent_wizard__state__stage2
+msgid "stage2"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields.selection,name:building_menagement.selection__rent_wizard__state__stage3
+msgid "stage3"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building_wizard__start_date
+msgid "start date"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_rent_agreement__agreement_start_date
+msgid "start_date"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_office__employee
+msgid "toatal employee"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__total_floor
+msgid "total floor"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__total_office
+msgid "total office"
+msgstr ""
+
+#. module: building_menagement
+#: model:ir.model.fields,field_description:building_menagement.field_building__total_price
+msgid "total_price"
+msgstr ""
+
+#. module: building_menagement
+#: model_terms:ir.ui.view,arch_db:building_menagement.building_wizard
+msgid "wizard"
+msgstr ""

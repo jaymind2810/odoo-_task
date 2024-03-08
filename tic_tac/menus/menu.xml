@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <menuitem id="menu_action_tic_tac_root"
+                  name="Tic Tac"/>
+
+        <menuitem action="action_tic_tac_web_view"
+                  id="menu_action_tic_tac_web_view"
+                  parent="menu_action_tic_tac_root"
+                  name="Tic Tac"
+                  sequence="20"/>
+
+        <menuitem action="action_sample_form_list"
+                  id="menu_action_sample_form_list"
+                  parent="menu_action_tic_tac_root"
+                  name="Sample Form"
+                  sequence="10"/>
+
+        <record id="menu_sample_form_registration" model="website.menu">
+                <field name="name">Sample Form</field>
+                <field name="url">/registration</field>
+                <field name="parent_id" ref="website.main_menu"/>
+                <field name="sequence" type="int">52</field>
+            </record>
+
+</odoo>

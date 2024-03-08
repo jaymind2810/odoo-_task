@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="sample_form_list_view" model="ir.ui.view">
+        <field name="name">sample_form_list_view</field>
+        <field name="model">sample.form</field>
+        <field name="arch" type="xml">
+            <tree string="Sample Form">
+                <field name="name"/>
+                <field name="first_name"/>
+                <field name="last_name"/>
+                <field name="birth_date"/>
+                <field name="email"/>
+                <field name="gender"/>
+            </tree>
+        </field>
+    </record>
+    <record id="sample_form_form_view" model="ir.ui.view">
+        <field name="name">sample_form_form_view</field>
+        <field name="model">sample.form</field>
+        <field name="arch" type="xml">
+            <form string="Sample Form">
+                <header>
+<!--                    <button name="get_message_template_status" string="Get Template Status" type="object" states="pending,rejected" groups="base.group_no_one"/>-->
+<!--                    <button string="Confirm" name="action_confirm_progressbar" type="object" class="oe_highlight" states="draft"/>-->
+<!--                    <button string="Draft" name="action_draft_progressbar" type="object" class="oe_highlight" states="confirm"/>-->
+<!--                    <button string="Reject" name="action_rejected_progressbar" type="object" states="confirm"/>-->
+<!--                    <button string="Delete" type="object" name="delete_message_template" class="oe_highlight" states="approved,rejected"/>-->
+                    <field name="state" widget="statusbar" statusbar_visible="draft,confirm,cancel,done"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="first_name"/>
+                            <field name="last_name"/>
+                        </group>
+                        <group>
+                            <field name="birth_date"/>
+                            <field name="email"/>
+                            <field name="gender"/>
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+    <record id="action_sample_form_list" model="ir.actions.act_window">
+        <field name="name">Sample Form</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sample.form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+</odoo>

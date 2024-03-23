@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template id="template" xml:space="preserve">
+
+<t t-name="my_awesome_dashboard">
+<div class="row">
+  <div class="col-sm-2">
+    <div class="card m-3" style="width: 18rem;">
+        <div class="card-body">
+        <h5 class="card-title">Hello World</h5>
+        </div>
+    </div>
+  </div>
+</div>
+</t>
+</template>

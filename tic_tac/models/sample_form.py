@@ -27,3 +27,4 @@ class SampleForm(models.Model):
         ('cancel', 'Cancelled'),
         ('done', 'Done')],
         default='draft', tracking=True, string="Status")
+    is_available = fields.Boolean(string="Is Available")

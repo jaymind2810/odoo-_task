@@ -9,6 +9,18 @@
                   name="Tic Tac"
                   sequence="20"/>
 
+        <menuitem action="action_awesome_counter_web_view"
+                  id="menu_action_awesome_counter_web_view"
+                  parent="menu_action_tic_tac_root"
+                  name="Awesome Counter"
+                  sequence="30"/>
+
+        <menuitem action="action_awesome_dashboard_web_view"
+                  id="menu_action_awesome_dashboard_web_view"
+                  parent="menu_action_tic_tac_root"
+                  name="Deshboard"
+                  sequence="40"/>
+
         <menuitem action="action_sample_form_list"
                   id="menu_action_sample_form_list"
                   parent="menu_action_tic_tac_root"

@@ -19,11 +19,22 @@
     'demo': [
     ],
     'assets': {
+        # 'point_of_sale.assets': [
+        #     'module_name/static/src/js/filename.js',
+        #     'module_name/static/src/xml/filename.xml',
+        # ],
         'point_of_sale._assets_pos': [
-            'custom_pos_screen/static/src/app/**/*',   
-        ],
-        'web.assets_frontend': [
-            # 'customer_sss/static/src/js/000.js',
+            # 'tic_tac/static/src/app/**/*',
+            'tic_tac/static/src/app/screens/product_screen/control_buttons/custom_button/custom_button.js',
+            'tic_tac/static/src/app/screens/product_screen/control_buttons/custom_button/custom_button.xml',
+            'tic_tac/static/src/app/screens/product_screen/control_buttons/custom_button_popup/custom_button_popup.js',
+            'tic_tac/static/src/app/screens/product_screen/control_buttons/custom_button_popup/custom_button_popup.xml',
+            # 'custom_pos_screen/static/src/app/**/*',
+            # 'tic_tac/static/src/app/custom_button/custom_button.js',
+            # 'tic_tac/static/src/app/custom_button/custom_button.xml',
+            # 'tic_tac/static/src/app/custom_button_popup/custom_button_popup.js',
+            # 'tic_tac/static/src/app/custom_button_popup/custom_button_popup.xml',
+            # 'tic_tac/static/src/js/custom_button_pos.js',
         ],
     },
     'installable': True,

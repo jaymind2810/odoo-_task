@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
-        <record id="action_tic_tac_web_view" model="ir.actions.client">
-            <field name="name">Tic Tac</field>
-            <field name="tag">tic_tac.my_calculator</field>
-        </record>
-    </data>
+    <record id="action_tic_tac_web_view" model="ir.actions.client">
+        <field name="name">Tic Tac</field>
+        <field name="tag">tic_tac.my_calculator</field>
+    </record>
+    <record id="action_awesome_counter_web_view" model="ir.actions.client">
+        <field name="name">Awesome Counter</field>
+        <field name="tag">tic_tac.my_awesome_counter</field>
+    </record>
+    <record id="action_awesome_dashboard_web_view" model="ir.actions.client">
+        <field name="name">Dashboard</field>
+        <field name="tag">tic_tac.my_awesome_dashboard</field>
+    </record>
 </odoo>

@@ -20,10 +20,18 @@
     'demo': [],
     'assets': {
         'web.assets_backend': [
-            # 'account/static/src/css/account_bank_and_cash.css',
             'tic_tac/static/src/scss/calculator.scss',
             'tic_tac/static/src/xml/calculator_page.xml',
             'tic_tac/static/src/js/calculator.js',
+            'tic_tac/static/src/js/counter_component.js',
+            'tic_tac/static/src/xml/my_awesome_counter.xml',
+            'tic_tac/static/src/js/todo_item.js',
+            'tic_tac/static/src/js/awesome_dashboard.js',
+            'tic_tac/static/src/js/some_card.js',
+            # 'tic_tac/static/src/js/toggel_button.js',
+            'tic_tac/static/src/js/counter/counter.js',
+            'tic_tac/static/src/js/counter/counter.xml',
+
         ],
         'web.assets_frontend': [
             'tic_tac/static/src/js/new_form.js',

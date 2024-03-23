@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<t t-name="tic_tac.Counter">
+    <div class="card d-inline-block m-2" style="width: 12rem;">
+        <div class="card-body">
+            <h5 class="card-title">Counter: <t t-esc="counter.value"/></h5>
+            <p class="card-text"><button class="btn btn-primary" t-on-click="incrementCounter">Increment</button></p>
+        </div>
+    </div>
+</t>

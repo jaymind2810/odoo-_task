@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="carzone_featured_cars" name="Featured Cars">
+        <section class="featured-cars" id="featured_cars">
+            <div class="featured-car content-area-5">
+                <div class="container">
+                    <!-- Main title -->
+                    <div class="main-title">
+                        <h1>Featured <span>Cars</span></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <!-- Slick slider area start -->
+                    <div class="slick-slider-area clearfix">
+                        <div class="row slick-carousel" id="featured_single_car">
+                            <div class="slick-slide-item" style="width: 380px;">
+                                    <div class="car-box-3">
+                                        <div class="car-thumbnail">
+                                            <a href="car-details.html" class="car-img">
+                                                <div class="tag-2">Featured</div>
+                                                <div class="price-box">
+                                                    <span class="del"><del>$805.00</del></span>
+                                                    <br/>
+                                                    <span>$780.00</span>
+                                                </div>
+                                                <img class="d-block w-100" src="/theme_carzone/static/src/img/car/car-1.jpg" alt="car"/>
+                                            </a>
+                                            <div class="carbox-overlap-wrapper">
+                                                <div class="overlap-box">
+                                                    <div class="overlap-btns-area">
+                                                        <div class="car-magnify-gallery">
+                                                            <a href="img/car/car-1.jpg" class="overlap-btn">
+                                                                <i class="fa fa-expand"></i>
+                                                                <img class="hidden" src="/theme_carzone/static/src/img/car/car-1.jpg"/>
+                                                            </a>
+                                                            <a href="img/car/car-2.jpg" class="hidden">
+                                                                <img class="hidden" src="/theme_carzone/static/src/img/car/car-2.jpg"/>
+                                                            </a>
+                                                            <a href="img/car/car-3.jpg" class="hidden">
+                                                                <img class="hidden" src="/theme_carzone/static/src/img/car/car-3.jpg"/>
+                                                            </a>
+                                                            <a href="img/car/car-4.jpg" class="hidden">
+                                                                <img class="hidden" src="/theme_carzone/static/src/img/car/car-4.jpg"/>
+                                                            </a>
+                                                            <a href="img/car/car-5.jpg" class="hidden">
+                                                                <img class="hidden" src="/theme_carzone/static/src/img/car/car-5.jpg"/>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="detail">
+                                            <h1 class="title">
+                                                <a href="car-details.html">Lamborghini Huracán</a>
+                                            </h1>
+                                            <div class="location">
+                                                <a href="car-details.html">
+                                                    <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
+                                                </a>
+                                            </div>
+                                            <ul class="facilities-list clearfix">
+                                                <li>Petrol</li>
+                                                <li>4,000 km</li>
+                                                <li>Manual</li>
+                                                <li>Sport</li>
+                                                <li>white</li>
+                                                <li>2020</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="slick-slide-item" style="width: 380px;">
+                                <div class="car-box-3">
+                                    <div class="car-thumbnail">
+                                        <a href="car-details.html" class="car-img">
+                                            <div class="tag-2">Featured</div>
+                                            <div class="price-box">
+                                                <span class="del"><del>$830.00</del></span>
+                                                <br/>
+                                                <span>$940.00</span>
+                                            </div>
+                                            <img class="d-block w-100" src="/theme_carzone/static/src/img/car/car-6.jpg" alt="car"/>
+                                        </a>
+                                        <div class="carbox-overlap-wrapper">
+                                            <div class="overlap-box">
+                                                <div class="overlap-btns-area">
+
+                                                    <div class="car-magnify-gallery">
+                                                        <a href="img/car/car-6.jpg" class="overlap-btn">
+                                                            <i class="fa fa-expand"></i>
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-6.jpg"/>
+                                                        </a>
+                                                        <a href="img/car/car-2.jpg" class="hidden">
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-2.jpg"/>
+                                                        </a>
+                                                        <a href="img/car/car-3.jpg" class="hidden">
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-3.jpg"/>
+                                                        </a>
+                                                        <a href="img/car/car-4.jpg" class="hidden">
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-4.jpg"/>
+                                                        </a>
+                                                        <a href="img/car/car-1.jpg" class="hidden">
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-1.jpg"/>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="detail">
+                                        <h1 class="title">
+                                            <a href="car-details.html">Audi Q7 2018</a>
+                                        </h1>
+                                        <div class="location">
+                                            <a href="car-details.html">
+                                                <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
+                                            </a>
+                                        </div>
+                                        <ul class="facilities-list clearfix">
+                                            <li>Petrol</li>
+                                            <li>4,000 km</li>
+                                            <li>Manual</li>
+                                            <li>Sport</li>
+                                            <li>white</li>
+                                            <li>2020</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slick-slide-item" style="width: 380px;">
+                                <div class="car-box-3">
+                                    <div class="car-thumbnail">
+                                        <a href="car-details.html" class="car-img">
+                                            <div class="tag-2">Featured</div>
+                                            <div class="price-box">
+                                                <span class="del"><del>$820.00</del></span>
+                                                <br/>
+                                                <span>$980.00</span>
+                                            </div>
+                                            <img class="d-block w-100" src="/theme_carzone/static/src/img/car/car-5.jpg" alt="car"/>
+                                        </a>
+                                        <div class="carbox-overlap-wrapper">
+                                            <div class="overlap-box">
+                                                <div class="overlap-btns-area">
+                                                    <div class="car-magnify-gallery">
+                                                        <a href="" class="overlap-btn">
+                                                            <i class="fa fa-expand"></i>
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-5.jpg" alt="hidden-img"/>
+                                                        </a>
+                                                        <a href="" class="hidden" >
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-2.jpg" alt="hidden-img"/>
+                                                       </a>
+                                                       <a href="" class="hidden" >
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-3.jpg" alt="hidden-img"/>
+                                                       </a>
+                                                       <a href="" class="hidden" >
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-4.jpg" alt="hidden-img"/>
+                                                       </a>
+                                                       <a href="" class="hidden" >
+                                                            <img class="hidden" src="/theme_carzone/static/src/img/car/car-1.jpg" alt="hidden-img"/>
+                                                       </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="detail">
+                                        <h1 class="title">
+                                            <a href="car-details.html">Toyota Prius Specs</a>
+                                        </h1>
+                                        <div class="location">
+                                            <a href="car-details.html">
+                                                <i class="flaticon-pin"></i>123 Kathal St. Tampa City,
+                                            </a>
+                                        </div>
+                                        <ul class="facilities-list clearfix">
+                                            <li>Petrol</li>
+                                            <li>4,000 km</li>
+                                            <li>Manual</li>
+                                            <li>Sport</li>
+                                            <li>white</li>
+                                            <li>2020</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slick-btn">
+                            <div class="slick-prev slick-arrow-buton sab-4">
+                                <i class="fa fa-angle-left"></i>
+                            </div>
+                            <div class="slick-next slick-arrow-buton sab-3">
+                                <i class="fa fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="dynamic_snippet_new">
+        <section class="dynamic-snippet">
+            <h1>This is a Dynamic Snippet</h1>
+            <p id="data_container"></p>
+<!--            <span t-esc="data.message" id="data_container"></span>-->
+        </section>
+    </template>
+</odoo>

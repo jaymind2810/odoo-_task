@@ -7,9 +7,9 @@ export class Counter extends Component {
     static props = {
         counterCount: {
             type: Object,
-            shape: { counter: Number, description: String, isCompleted: Boolean }
+            shape: { id: Number, counter: Number}
         },
-        toggleState: Function,
+        counterFun: { type: Function, optional: true }
     };
 
     setup (){
@@ -17,7 +17,10 @@ export class Counter extends Component {
     }
 
     incrementCounter() {
-        console.log("------incrementCounter----1111111111-----------")
-        this.counter++
+        console.log(this.counter, "------incrementCounter----1111111111-----------", this)
+        this.counter.value++;
+        if (this.props.counterFun){
+            this.props.counterFun()
+        }
     }
 }

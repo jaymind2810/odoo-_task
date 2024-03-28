@@ -2,9 +2,9 @@
 
 import { registry } from "@web/core/registry";
 import { Component, useState } from  "@odoo/owl";
-import { TodoItem } from "./todo_item";
-import { SimpleCard } from "./some_card";
-//import { ToggleButton } from "./toggel_button"
+import { TodoItem } from "./todo_item/todo_item";
+import { SimpleCard } from "./card/some_card";
+import { ToggleButton } from "./toggel_button/toggel_button"
 import { Counter } from "./counter/counter"
 import { useAutofocus } from "@web/core/utils/hooks";
 
@@ -12,7 +12,7 @@ class MyAwesomeCounter extends Component {
 
 //    static template = "tic_tac.Counter";
 
-    static components = { TodoItem, SimpleCard, Counter };
+    static components = { TodoItem, SimpleCard, Counter, ToggleButton };
 
     setup() {
         this.nextId = 0;
@@ -27,6 +27,16 @@ class MyAwesomeCounter extends Component {
         this.sum = useState({ value: 0 });
         this.counter_1 = useState({ value: 0 });
         this.counter_2 = useState({ value: 0 });
+
+
+        this.counter_sum = useState({ value: 0 });
+    }
+
+// ---------------------- Counter Component------------Sum----------------
+
+    sumCounter(counterID) {
+        console.log(counterID, "Here---------In Sum Counter", this)
+        this.counter_sum.value++;
     }
 
 

@@ -4,6 +4,7 @@
         <xpath expr="//t[@t-call='website.layout']" position="replace">
             <t t-call="website.layout">
                 <t t-set="pageName" t-value="'homepage'"/>
+                <div id="wrap" class="oe_structure">
                 <!-- Banner start -->
                 <div class="banner" id="banner">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -548,10 +549,10 @@
                                         </div>
                                     </div>
                                     <div class="footer clearfix">
-                                        <div class="pull-left ratings days">
+                                        <div class="float-left ratings days">
                                             <p class="cartype">Sedan</p>
                                         </div>
-                                        <div class="pull-right">
+                                        <div class="float-right">
                                             <p class="price">$850.00</p>
                                         </div>
                                     </div>
@@ -613,10 +614,10 @@
                                         </div>
                                     </div>
                                     <div class="footer clearfix">
-                                        <div class="pull-left ratings days">
+                                        <div class="float-left ratings days">
                                             <p class="cartype">Sedan</p>
                                         </div>
-                                        <div class="pull-right">
+                                        <div class="float-right">
                                             <p class="price">$750.00</p>
                                         </div>
                                     </div>
@@ -678,10 +679,10 @@
                                         </div>
                                     </div>
                                     <div class="footer clearfix">
-                                        <div class="pull-left ratings days">
+                                        <div class="float-left ratings days">
                                             <p class="cartype">Sedan</p>
                                         </div>
-                                        <div class="pull-right">
+                                        <div class="float-right">
                                             <p class="price">$820.00</p>
                                         </div>
                                     </div>
@@ -743,10 +744,10 @@
                                         </div>
                                     </div>
                                     <div class="footer clearfix">
-                                        <div class="pull-left ratings days">
+                                        <div class="float-left ratings days">
                                             <p class="cartype">Sedan</p>
                                         </div>
-                                        <div class="pull-right">
+                                        <div class="float-right">
                                             <p class="price">$640.00</p>
                                         </div>
                                     </div>
@@ -808,10 +809,10 @@
                                         </div>
                                     </div>
                                     <div class="footer clearfix">
-                                        <div class="pull-left ratings days">
+                                        <div class="float-left ratings days">
                                             <p class="cartype">Sedan</p>
                                         </div>
-                                        <div class="pull-right">
+                                        <div class="float-right">
                                             <p class="price">$780.00</p>
                                         </div>
                                     </div>
@@ -873,10 +874,10 @@
                                         </div>
                                     </div>
                                     <div class="footer clearfix">
-                                        <div class="pull-left ratings days">
+                                        <div class="float-left ratings days">
                                             <p class="cartype">Sedan</p>
                                         </div>
-                                        <div class="pull-right">
+                                        <div class="float-right">
                                             <p class="price">$975.00</p>
                                         </div>
                                     </div>
@@ -1011,6 +1012,8 @@
                     </div>
                 </div>
                 <!-- Intro section end -->
+
+                </div>
             </t>
         </xpath>
     </template>

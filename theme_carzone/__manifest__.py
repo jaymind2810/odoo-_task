@@ -6,9 +6,18 @@
     'version': '1.0',
     'depends': ['website'],
     'data': [
+        'security/ir.model.access.csv',
         'views/header.xml',
         'views/footer.xml',
-        'views/homepage.xml'
+        'views/homepage.xml',
+        'views/services_page.xml',
+        'views/about_page.xml',
+        'views/carzone_car_view.xml',
+        'views/snippets/carzone_teams.xml',
+        'views/snippets/featured_cars.xml',
+        'views/snippets/snippets.xml',
+        'views/menu.xml',
+        'menus/menus.xml',
     ],
     'images': [
         
@@ -28,6 +37,9 @@
             'theme_carzone/static/src/scss/skins/red.scss',
             'theme_carzone/static/src/scss/ie10-viewport-bug-workaround.scss',
             'theme_carzone/static/src/scss/jnoty.scss',
+            'theme_carzone/static/src/js/s_carzone_car.js',
+            # 'theme_carzone/static/src/js/sample.js',
+
             # 'theme_carzone/static/src/js/app.js',
             # 'theme_carzone/static/src/js/bootstrap.min.js',
             # 'theme_carzone/static/src/js/bootstrap-select.min.js',
@@ -52,7 +64,7 @@
         ],
     },
     'configurator_snippets': {
-        
+        # 'theme_carzone/static/src/js/s_carzone_car.js',
     },
     'license': 'LGPL-3',
 }

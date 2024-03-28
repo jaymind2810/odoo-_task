@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<t t-name="tic_tac.ToggleButton">
+    <div class="card d-inline-block m-2" style="width: 15rem;">
+        <div class="card-body">
+            <div>
+                <h5 class="card-title"><t t-out="props.title"/></h5>
+                <button class="btn btn-light" t-on-click="onHide">Toggle</button>
+            </div>
+            <div t-if="toggleStateDict.isHide">
+                <t t-slot="default"/>
+            </div>
+        </div>
+    </div>
+
+</t>

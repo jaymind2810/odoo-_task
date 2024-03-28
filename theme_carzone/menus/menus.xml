@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <menuitem id="menu_action_carzone_car_root"
+                  name="Carzone"/>
+
+        <menuitem action="action_carzone_car_details_view"
+                  id="menu_action_carzone_car_details_view"
+                  parent="menu_action_carzone_car_root"
+                  name="Car"
+                  sequence="20"/>
+</odoo>

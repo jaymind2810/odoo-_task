@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="castom_carzone_snippets" inherit_id="website.snippets" name="Carzone Snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div class="o_panel_header">Carzone Snippets</div>
+            <div class="o_panel_body">
+                <t t-snippet="theme_carzone.carzone_teams" string="Our Teams" t-thumbnail="/theme_carzone/static/src/img/snippets_svg/s_company_team.svg">
+                    <keywords>Carzone, Teams</keywords>
+                </t>
+                <t t-snippet="theme_carzone.carzone_featured_cars" string="Featured Cars" t-thumbnail="/theme_carzone/static/src/img/snippets_svg/s_company_team.svg">
+                    <keywords>Featured, Cars</keywords>
+                </t>
+                <t t-snippet="theme_carzone.dynamic_snippet_new" string="Dynamic Cars" t-thumbnail="/theme_carzone/static/src/img/snippets_svg/s_company_team.svg">
+                    <keywords>Featured, Cars</keywords>
+                </t>
+            </div>
+        </xpath>
+    </template>
+</odoo>

@@ -63,72 +63,37 @@
     </div>
     <div class="col-sm-2">
         <div class="card m-3" style="width: 18rem;">
-            <Counter/>
+            <Counter counterFun.bind="sumCounter" />
+            <Counter counterFun.bind="sumCounter" />
+            Total Sum : <t t-esc="counter_sum.value"/>
         </div>
+
     </div>
 
-<!--    <div class="col-sm-4">-->
-<!--        <div class="card m-3" style="width: 18rem;">-->
-<!--            <div class="card-body">-->
-<!--&lt;!&ndash;                <t t-name="tic_tac.ToggleButtonList">&ndash;&gt;-->
-<!--                    <div class="d-inline-block border p-2 m-2">-->
-<!--                        <ToggleButton/>-->
-<!--&lt;!&ndash;                        <div>&ndash;&gt;-->
-<!--                            <ToggleButton title="'card 1'">-->
-<!--                                content of card 1-->
-<!--                            </ToggleButton>-->
-<!--                            <ToggleButton title="'card 2'">-->
-<!--                                <Counter />-->
-<!--                            </ToggleButton>-->
-<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <input class="form-control mb-3" id="card_title" type="text" placeholder="Add a Card Title"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <textarea class="form-control mb-3" id="card_description" type="text" placeholder="Add a Card Description"/>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <button class="btn btn-primary" t-on-click="addCardDetails">Submit</button>&ndash;&gt;-->
-<!--&lt;!&ndash;                        <t t-foreach="cards" t-as="card" t-key="card.id">&ndash;&gt;-->
-<!--&lt;!&ndash;                            <SimpleCard cardText="card" removeCard.bind="removeCard" />&ndash;&gt;-->
-<!--&lt;!&ndash;                        </t>&ndash;&gt;-->
-<!--                    </div>-->
-<!--&lt;!&ndash;                </t>&ndash;&gt;-->
-<!--          </div>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div class="col-sm-2">
+        <div class="card m-3" style="width: 18rem;">
+            <div class="card-body">
+                <div>
+                    <ToggleButton title="'card 1'">
+                        Sample Card 1
+                    </ToggleButton>
+                </div>
+<!--                <div t-if="toggleText.toggleStateDict.isHide">-->
+<!--                    <p class="card-text">Some Card Description</p>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="card m-3" style="width: 18rem;">
+            <div class="card-body">
+                <ToggleButton title="'card 2'">
+                    <Counter/>
+                </ToggleButton>
+
+            </div>
+        </div>
+
+    </div>
 </div>
-</t>
-
-<t t-name="tic_tac.TodoItem">
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" t-att-id="props.todo.id" t-att-checked="props.todo.isCompleted" t-on-change="onChange"/>
-        <label t-att-for="props.todo.id" t-att-class="props.todo.isCompleted ? 'text-decoration-line-through text-muted' : '' ">
-            <t t-esc="props.todo.id"/>.
-            <t t-esc="props.todo.description"/>
-        </label>
-        <span role="button" class="fa fa-remove ms-3 text-danger" t-on-click="onRemove"/>
-    </div>
-</t>
-
-<t t-name="tic_tac.SimpleCard">
-    <div class="card d-inline-block m-2" style="width: 12rem;">
-        <div class="card-body">
-            <h5 class="card-title"><t t-esc="props.cardText.title"/></h5>
-            <p class="card-text"><t t-esc="props.cardText.description"/></p>
-        </div>
-        <span role="button" class="fa fa-remove m-2 text-black btn btn-danger" t-on-click="onRemove"/>
-    </div>
-</t>
-
-<t t-name="tic_tac.ToggleButton">
-    <div class="card d-inline-block m-2" style="width: 12rem;">
-        <div class="card-body">
-            <div>
-                <h5 class="card-title">Card1 Title</h5>
-                <button class="btn" t-on-click="onHide">Toggle</button>
-            </div>
-            <div t-if="props.toggleText.isHide">
-                <p class="card-text">Some Card Description</p>
-            </div>
-        </div>
-    </div>
-
 </t>
 
 </template>

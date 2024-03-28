@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template id="template" xml:space="preserve">
+    <t t-name="tic_tac.SimpleCard">
+        <div class="card d-inline-block m-2" style="width: 12rem;">
+            <div class="card-body">
+                <h5 class="card-title"><t t-esc="props.cardText.title"/></h5>
+                <p class="card-text"><t t-esc="props.cardText.description"/></p>
+            </div>
+            <span role="button" class="fa fa-remove m-2 text-black btn btn-danger" t-on-click="onRemove"/>
+        </div>
+    </t>
+</template>

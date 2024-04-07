@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_purchse_order_document_inherit" inherit_id="purchase.report_purchaseorder_document">
+        <xpath expr="//th[@name='th_taxes']" position="after">
+            <th name="th_purchase_line_ref" class="text-end"><span>Purchase Line Ref</span></th>
+        </xpath>
+
+        <xpath expr="//td[@name='td_taxes']" position="after">
+            <td name="td_line_ref" class="text-end">
+                <span class="text-nowrap" t-field="line.purchase_line_ref"/>
+            </td>
+        </xpath>
+    </template>
+</odoo>

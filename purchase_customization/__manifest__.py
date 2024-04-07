@@ -1,9 +1,9 @@
 {
-    'name': "Sale Customization",
+    'name': "Purchase Customization",
     'version': '17.0.1.0',
     'category': 'Education',
-    'sequence': 3,
-    'summary': "Sale Customization Task",
+    'sequence': 4,
+    'summary': "Purchase Customization Task",
     'author': 'Jaymin Patel',
     'website': '',
     'depends': [
@@ -14,9 +14,9 @@
     ],
     'data': [
         # 'security/ir.model.access.csv',
-        'views/sale_order_view.xml',
-        'report/invoice_report.xml',
-        'report/sale_report.xml',
+        'views/purchase_order_view.xml',
+        'report/bill_report.xml',
+        'report/purchase_report.xml',
     ],
     'demo': [
     ],
@@ -24,9 +24,7 @@
         'web.report_assets_pdf': [
             # '/customer_sss/static/src/scss/fonts.scss',
         ],
-        'web.assets_frontend': [
-            # 'customer_sss/static/src/js/000.js',
-        ],
+        'web.assets_frontend': [],
     },
     'installable': True,
     'auto_install': False,

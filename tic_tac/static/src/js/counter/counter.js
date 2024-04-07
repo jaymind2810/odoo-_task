@@ -13,7 +13,7 @@ export class Counter extends Component {
     };
 
     setup (){
-        this.counter = useState({ value: 1 });
+        this.counter = useState({ value: 0 });
     }
 
     incrementCounter() {

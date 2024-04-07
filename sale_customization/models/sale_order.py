@@ -32,11 +32,24 @@ class SaleOrderLine(models.Model):
     _inherit = 'sale.order.line'
 
     line_ref = fields.Char(string='Line Ref')
+    second_discount = fields.Float(string="2nd Disc. %")
+
+    @api.depends('product_uom_qty', 'discount', 'price_unit', 'tax_id', 'second_discount')
+    def _compute_amount(self):
+        rc = super(SaleOrderLine, self)._compute_amount()
+        print(rc, "---_rc -In sale oreder----------")
+        for rec in self:
+            print(rec, "-----rec--------", rec.order_id._origin.id)
+            if rec.second_discount:
+                rec.price_subtotal = rec.price_subtotal - ((rec.second_discount * rec.price_subtotal) / 100)
+                rec.price_total = rec.price_total - ((rec.second_discount * rec.price_total) / 100)
+        return rc
+
 
     def _prepare_invoice_line(self, **optional_values):
         values = super(SaleOrderLine, self)._prepare_invoice_line(**optional_values)
         values.update({'line_ref': self.line_ref})
-        print(values, "-------In Sale order Prepare Values------")
+        values['second_discount'] = self.second_discount
         return values
 
 
@@ -73,7 +86,7 @@ class StockMoveLine(models.Model):
     line_ref = fields.Char(string="Line Ref")
 
 
-class AccountMoveLine(models.Model):
+class AccountMove(models.Model):
     _inherit = 'account.move'
 
 
@@ -82,6 +95,18 @@ class AccountMoveLine(models.Model):
 
 
     line_ref = fields.Char(string='Line Ref')
+    second_discount = fields.Float(string="2nd Disc. %")
+
+
+    @api.onchange('quantity', 'discount', 'price_unit', 'tax_ids', 'second_discount')
+    def _onchange_price_subtotal(self):
+        rc = super(AccountMove, self)._onchange_price_subtotal()
+        print(rc, "-------Rc in Account Move ----------")
+        for rec in self:
+            if rec.second_discount:
+                rec.price_subtotal = rec.price_subtotal - ((rec.second_discount*rec.price_subtotal)/100)
+        return rc
+
 
     
     
